@@ -1,0 +1,22 @@
+{
+  "name": "aws-deploy",
+  "version": "1.0.0",
+  "description": "A tool to help me deploy a webapp to my aws bucket.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DogsForArms/aws-deploy.git"
+  },
+  "author": "Ethan Sherr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DogsForArms/aws-deploy/issues"
+  },
+  "homepage": "https://github.com/DogsForArms/aws-deploy",
+  "preferGlobal":true,
+  "bin": {
+    "aws-deploy": "aws-deploy.js"
+  }
+}
